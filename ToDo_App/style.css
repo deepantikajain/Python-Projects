@@ -1,0 +1,43 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card */
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+/* Heading */
+h4 {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs */
+.form-control {
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Table hover */
+.table-hover tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* Badge */
+.badge {
+    font-size: 13px;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+/* Navbar */
+.navbar {
+    border-radius: 0 0 12px 12px;
+}

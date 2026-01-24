@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="card shadow-sm">
+    <div class="card-body">
+
+        <h4 class="text-center mb-3">Manage Your Tasks</h4>
+
+        <!-- Add Task -->
+        <form action="/" method="POST" class="row g-2 mb-3">
+            <div class="col-md-5">
+                <input type="text" name="task" class="form-control" placeholder="Enter task" required>
+            </div>
+            <div class="col-md-3">
+                <input type="date" name="due_date" class="form-control">
+            </div>
+            <div class="col-md-4 d-grid">
+                <button type="submit" class="btn btn-primary">Add Task</button>
+            </div>
+        </form>
+
+        <!-- Task Table -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Task</th>
+                        <th>Due Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for task in tasks %}
+                    <tr>
+                        <td>{{ loop.index }}</td>
+                        <td class="text-start">{{ task.task }}</td>
+                        <td>{{ task.due_date if task.due_date else "—" }}</td>
+                        <td>
+                            {% if task.status == "Completed" %}
+                                <span class="badge bg-success">Completed</span>
+                            {% else %}
+                                <span class="badge bg-warning text-dark">Pending</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <a href="/status/{{ task.id }}" class="btn btn-sm btn-info me-1">Toggle</a>
+                            <a href="/update/{{ task.id }}" class="btn btn-sm btn-success me-1">Edit</a>
+                            <a href="/delete/{{ task.id }}" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-muted">No tasks yet.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
