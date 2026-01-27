@@ -27,10 +27,16 @@ A simple and interactive Python program that generates strong and secure passwor
 ---
 ## EXAMPLE OUTPUT 
 ===== ADVANCED PASSWORD GENERATOR =====
+
 Enter password length: 12
+
 Include uppercase letters? (y/n): y
+
 Include lowercase letters? (y/n): y
+
 Include numbers? (y/n): y
+
 Include symbols? (y/n): y
+
 
 Generated Password: A9@fK2!mP#q1
