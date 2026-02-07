@@ -68,7 +68,7 @@ It allows users to record expenses, view monthly summaries, and analyze category
 ![Add Expense](https://github.com/deepantikajain/Python-Projects/blob/main/EXPENSE_TRACKER%20WEB%20APPLICATION/add_expense.png?raw=true)
 
 ### Admin Panel
-![Admin Panel](screenshots/admin.png)
+![Admin Panel](https://github.com/deepantikajain/Python-Projects/blob/main/EXPENSE_TRACKER%20WEB%20APPLICATION/admin.png?raw=true)
 
 >  *All screenshots are placed inside the `screenshots/` folder.*
 
