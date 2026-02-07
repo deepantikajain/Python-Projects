@@ -75,7 +75,7 @@ It allows users to record expenses, view monthly summaries, and analyze category
 ---
 ##  Project Structure
 
-''' expense_tracker/
+``` expense_tracker/
 │
 ├── manage.py
 │
@@ -99,7 +99,7 @@ It allows users to record expenses, view monthly summaries, and analyze category
 ├── expense_tracker/
 │ ├── settings.py
 │ ├── urls.py
-│ └── wsgi.py '''
+│ └── wsgi.py ```
 
 ## 🧾 Conclusion
 
