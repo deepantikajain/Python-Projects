@@ -65,7 +65,7 @@ It allows users to record expenses, view monthly summaries, and analyze category
 ![Expense Dashboard] (https://github.com/deepantikajain/Python-Projects/blob/main/EXPENSE_TRACKER%20WEB%20APPLICATION/dashboard.png?raw=true)
 
 ### Add / Edit Expense
-![Add Expense](screenshots/add_expense.png)
+![Add Expense](https://github.com/deepantikajain/Python-Projects/blob/main/EXPENSE_TRACKER%20WEB%20APPLICATION/add_expense.png?raw=true)
 
 ### Admin Panel
 ![Admin Panel](screenshots/admin.png)
