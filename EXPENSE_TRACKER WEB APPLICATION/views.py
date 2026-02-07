@@ -6,8 +6,7 @@ from datetime import date
 from .models import Expense
 from .forms import ExpenseForm
 
-
-# READ + ANALYTICS (List expenses, monthly total, category-wise total)
+
 @login_required
 def expense_list(request):
     today = date.today()
