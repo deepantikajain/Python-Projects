@@ -48,7 +48,7 @@ This project allows users to browse restaurants, view food items, search, add it
 
 ### Cart Page
 
-![Cart](./screenshots/cart.png)
+![Cart](https://github.com/deepantikajain/Python-Projects/blob/main/ONLINE_FOOD_ORDERING_SYSTEM_DJANGO/cart.png?raw=true))
 
 ---
 
