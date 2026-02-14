@@ -60,7 +60,7 @@ This project allows users to browse restaurants, view food items, search, add it
 
 ### Admin Panel
 
-![Admin Panel](./screenshots/admin.png)
+![Admin Panel](https://github.com/deepantikajain/Python-Projects/blob/main/ONLINE_FOOD_ORDERING_SYSTEM_DJANGO/admin.png?raw=true)
 
 ---
 
