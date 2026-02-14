@@ -54,7 +54,7 @@ This project allows users to browse restaurants, view food items, search, add it
 
 ### Order Success Page
 
-![Order Success](./screenshots/success.png)
+![Order Success](https://github.com/deepantikajain/Python-Projects/blob/main/ONLINE_FOOD_ORDERING_SYSTEM_DJANGO/success.png?raw=true)
 
 ---
 
