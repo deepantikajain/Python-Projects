@@ -36,31 +36,31 @@ This project allows users to browse restaurants, view food items, search, add it
 
 ### Homepage
 
-![Homepage](screenshots/homepage.png)
+![Homepage](./screenshots/homepage.png)
 
 ---
 
 ### Menu Page
 
-![Menu](screenshots/menu.png)
+![Menu](./screenshots/menu.png)
 
 ---
 
 ### Cart Page
 
-![Cart](screenshots/cart.png)
+![Cart](./screenshots/cart.png)
 
 ---
 
 ### Order Success Page
 
-![Order Success](screenshots/success.png)
+![Order Success](./screenshots/success.png)
 
 ---
 
 ### Admin Panel
 
-![Admin Panel](screenshots/admin.png)
+![Admin Panel](./screenshots/admin.png)
 
 ---
 
