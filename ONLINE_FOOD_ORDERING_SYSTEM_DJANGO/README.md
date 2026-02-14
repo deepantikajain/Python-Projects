@@ -42,7 +42,7 @@ This project allows users to browse restaurants, view food items, search, add it
 
 ### Menu Page
 
-![Menu](./screenshots/menu.png)
+![Menu](https://github.com/deepantikajain/Python-Projects/blob/main/ONLINE_FOOD_ORDERING_SYSTEM_DJANGO/menu.png?raw=true)
 
 ---
 
